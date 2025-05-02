@@ -1,0 +1,46 @@
+body {
+    font-family: Arial, sans-serif;
+  }
+  
+  header {
+    background-color: #f8f9fa;
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  nav a {
+    margin-left: 10px;
+  }
+  
+  .pokemon-card, .compare-card {
+    border: 1px solid #ddd;
+    padding: 10px;
+    margin: 10px;
+    text-align: center;
+  }
+  
+  .pokemon-card img, .compare-card img {
+    width: 100px;
+    height: 100px;
+  }
+  
+  .card-grid {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  
+  .loading {
+    text-align: center;
+    margin-top: 20px;
+  }
+  
+  input {
+    padding: 5px;
+    margin-right: 10px;
+  }
+  
+  button {
+    padding: 5px 10px;
+  }
+  
